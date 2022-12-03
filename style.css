@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(180, 219, 255);
+    margin:0;
+    margin-top: 30px;
+}
+.calc{
+    
+    width: 300px;
+    height: 325px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-radius: 8px;
+    border-style: groove;
+
+    
+
+
+}
+#screen{
+    width: 90%;
+    height: 50px;
+    margin-left: 10px;
+    margin-top:14px;
+    pointer-events: none;
+    border-radius: 8px;
+    border-color: #0099ff;
+    font-size: 30px;
+
+    
+}
+.btn{
+    width: 59.5px;
+    height: 40px;
+    margin-left:9.5px;
+    margin-top: 10px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    border: groove;
+    font-size: medium;
+
+    
+
+}
+.btn:hover{
+    background-color: #0099ff; /* Green */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(116, 116, 116, 0.24), 0 17px 50px 0 rgba(105, 105, 105, 0.19);
+}
+
+.btnclear{
+    width: 93.5%;
+    height: 40px;
+    margin-left: 9px;
+    margin-top:7px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    border: groove;
+    font-size:large;
+    color: #0099ff;
+}
+.btnclear:hover{
+    background-color: #0099ff; /* Green */
+    color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(116, 116, 116, 0.24), 0 17px 50px 0 rgba(105, 105, 105, 0.19);
+    
+}
